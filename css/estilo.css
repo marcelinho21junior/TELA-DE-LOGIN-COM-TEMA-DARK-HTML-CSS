@@ -1,0 +1,109 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(41, 17, 65);
+}
+
+.card{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    
+} 
+
+/* LADO ESQUERDO */
+
+.Esquerda{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    width: 50%;
+}
+
+.Esquerda span{
+    font-size: 50px;
+    color: rgb(57, 245, 51);
+}
+
+.Esquerda img{
+    height: 70%;
+}
+
+/* LADO DIREITO */
+
+.Direita{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    height: 100%;
+    width: 50%;
+}
+
+.CardDireita{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    height: 60%;
+    width: 70%;
+    border-radius: 20px;
+    background-color:#2f2b41 ;
+}
+
+.Direita .login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(57, 245, 51);
+    letter-spacing: 2px;
+    width: 100%;
+    height: 10%;
+}
+
+.inputs{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    margin: 3px;
+    height: 25%;
+    width: 90%;
+}
+
+.inputs span{
+    display: flex;
+    justify-content: flex-start;
+    margin: 3px;
+    font-size: large;
+    color: cornsilk;
+    width: 90%;
+}
+
+.inputs input{
+    height: 50%;
+    width: 90%;
+    margin: 5px;
+    font-size: 15px;
+    border-radius: 10px;
+    background-color: crimson;
+    background-color: #514869;
+    border: none;
+}
+
+button{
+    border-radius: 10px;
+    height: 15%;
+    width: 80%;
+    margin: 20px;
+    letter-spacing: 3px;
+    font-weight: 900;
+    color: #2f2b41;
+    background-color:rgb(57, 245, 51);;
+}
